@@ -1,0 +1,33 @@
+{
+  "classes": [
+    "fried_rice",
+    "bread_pudding",
+    "samosa",
+    "waffles",
+    "pizza",
+    "hamburger",
+    "caesar_salad",
+    "apple_pie"
+  ],
+  "num_classes": 8,
+  "class_to_id": {
+    "fried_rice": 0,
+    "bread_pudding": 1,
+    "samosa": 2,
+    "waffles": 3,
+    "pizza": 4,
+    "hamburger": 5,
+    "caesar_salad": 6,
+    "apple_pie": 7
+  },
+  "id_to_class": {
+    "0": "fried_rice",
+    "1": "bread_pudding",
+    "2": "samosa",
+    "3": "waffles",
+    "4": "pizza",
+    "5": "hamburger",
+    "6": "caesar_salad",
+    "7": "apple_pie"
+  }
+}

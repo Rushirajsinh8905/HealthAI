@@ -1,0 +1,15 @@
+# Pyrefly configuration for HealthAI backend
+# Forces Pyrefly to use Python 3.11 where all project packages are installed
+
+[tool.pyrefly]
+python_interpreter = "/Library/Frameworks/Python.framework/Versions/3.11/bin/python3"
+
+# Suppress errors for packages that are installed but may not be detected
+# These are all installed in Python 3.11 site-packages
+ignore_missing_imports = true
+
+# Exclude virtual environment and cache dirs from analysis
+exclude = [
+    "__pycache__",
+    ".vscode",
+]
